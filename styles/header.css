@@ -1,0 +1,43 @@
+.header {
+    height: 55px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.netflix-logo {
+    position: absolute;
+    height: 7vw;
+    top: 0.4vw;
+    cursor: pointer;
+}
+
+
+.right-section {
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+.user-icon {
+    position: absolute;
+    height: 4vw;
+    top: 1vw;
+    left: 95vw;
+    cursor: pointer;
+
+    border-radius: 6px;
+}

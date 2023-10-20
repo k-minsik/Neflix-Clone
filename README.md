@@ -1,4 +1,4 @@
-# Netflix Main Screen  
+# Netflix Main Screen Clone
 
 해당 프로젝트는 개인 학습용으로 제작되었습니다.  
 

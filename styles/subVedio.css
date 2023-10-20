@@ -1,0 +1,75 @@
+.stack {
+    position: absolute;
+    top: 43vw;
+    left: 5vw;
+
+    z-index: 3;
+}
+
+.stack2 {
+    position: absolute;
+    top: 68vw;
+    left: 5vw;
+    z-index: 3;
+}
+
+.only-netflix {
+    font-size: 1.7vw;
+    z-index: 3;
+}
+
+
+.hot-content {
+    font-size: 1.7vw;
+    z-index: 3;
+}
+
+.video-flex {
+    display: flex;
+    gap: 2vw;
+    width: 90vw;
+    list-style-type: none;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.only, .hot {
+    width: 16vw;
+    z-index: 3;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+    .only, .hot {
+      width: 21vw;
+    }
+    
+}
+
+@media (min-width: 751) and (max-width: 1023px) {
+    .only, .hot {
+      width: 20vw;
+    }
+    .stack2 {
+        top: 78vw;
+    }
+    
+}
+  
+@media (min-width: 512px) and (max-width: 750px) {
+    .only, .hot {
+      width: 28vw;
+    }
+}
+
+@media (max-width: 511px) {
+    .only, .hot {
+      width: 40vw;
+    }
+}
+
+.only:hover, .hot:hover {
+    transform: scale(1.1);
+}
